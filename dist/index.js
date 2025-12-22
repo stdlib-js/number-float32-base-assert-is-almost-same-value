@@ -1,43 +1,5 @@
+"use strict";var a=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var t=a(function(v,s){
+var u=require('@stdlib/math-base-assert-is-nanf/dist'),n=require('@stdlib/number-float32-base-assert-is-same-value/dist'),f=require('@stdlib/number-float32-base-ulp-difference/dist');function l(e,r,i){return u(e)||u(r)||i===0?n(e,r):f(e,r)<=i}s.exports=l
+});var o=t();module.exports=o;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Test if two single-precision floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).
-*
-* @module @stdlib/number-float32-base-assert-is-almost-same-value
-*
-* @example
-* var EPS = require( '@stdlib/constants-float32-eps' );
-* var isAlmostSameValue = require( '@stdlib/number-float32-base-assert-is-almost-same-value' );
-*
-* var bool = isAlmostSameValue( 1.0, 1.0+EPS, 1 );
-* // returns true
-*
-* bool = isAlmostSameValue( 1.0+EPS, 1.0, 1 );
-* // returns true
-*
-* bool = isAlmostSameValue( 1.0, 1.0+EPS+EPS, 1 );
-* // returns false
-*
-* bool = isAlmostSameValue( 1.0, 1.0+EPS, 0 );
-* // returns false
-*
-* bool = isAlmostSameValue( 0.0, -0.0, 0 );
-* // returns false
-*
-* bool = isAlmostSameValue( 1.0, NaN, 1 );
-* // returns false
-*
-* bool = isAlmostSameValue( NaN, NaN, 1 );
-* // returns true
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
