@@ -35,14 +35,32 @@ limitations under the License.
 
 > Test if two single-precision floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-float32-base-assert-is-almost-same-value
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@esm/index.mjs';
+var isAlmostSameValue = require( '@stdlib/number-float32-base-assert-is-almost-same-value' );
 ```
 
 #### isAlmostSameValue( a, b, maxULP )
@@ -50,7 +68,7 @@ import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-floa
 Tests if two single-precision floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).
 
 ```javascript
-import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@esm/index.mjs';
+var EPS = require( '@stdlib/constants-float32-eps' );
 
 var bool = isAlmostSameValue( 1.0, 1.0+EPS, 1 );
 // returns true
@@ -95,14 +113,9 @@ bool = isAlmostSameValue( 0.0, -0.0, 0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@esm/index.mjs';
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@esm/index.mjs';
+```javascript
+var EPS = require( '@stdlib/constants-float32-eps' );
+var isAlmostSameValue = require( '@stdlib/number-float32-base-assert-is-almost-same-value' );
 
 var bool = isAlmostSameValue( 1.0, 1.0+EPS, 1 );
 console.log( bool );
@@ -131,10 +144,6 @@ console.log( bool );
 bool = isAlmostSameValue( NaN, NaN, 1 );
 console.log( bool );
 // => true
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -158,7 +167,7 @@ console.log( bool );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -167,6 +176,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -196,8 +210,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -213,6 +227,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/number-float32-base-assert-is-almost-same-value/tree/esm
 [esm-readme]: https://github.com/stdlib-js/number-float32-base-assert-is-almost-same-value/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/number-float32-base-assert-is-almost-same-value/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/number-float32-base-assert-is-almost-same-value/main/LICENSE
 
 [ecma-262-same-value-algorithm]: http://ecma-international.org/ecma-262/5.1/#sec-9.12
 
