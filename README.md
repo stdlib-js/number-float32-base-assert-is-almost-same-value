@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@esm/index.mjs';
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.0-esm/index.mjs';
 ```
 
 #### isAlmostSameValue( a, b, maxULP )
@@ -102,7 +102,7 @@ bool = isAlmostSameValue( 0.0, -0.0, 0 );
 <script type="module">
 
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@esm/index.mjs';
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@esm/index.mjs';
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.0-esm/index.mjs';
 
 var bool = isAlmostSameValue( 1.0, 1.0+EPS, 1 );
 console.log( bool );
