@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float32-base-assert-is-almost-same-value",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Test if two single-precision floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).",
   "license": "Apache-2.0",
   "author": {
