@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float32-base-assert-is-almost-same-value/tags). For example,
+
+```javascript
 import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.0-deno/mod.js';
 ```
 
@@ -97,7 +102,7 @@ bool = isAlmostSameValue( 0.0, -0.0, 0 );
 
 ```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@deno/mod.js';
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.0-deno/mod.js';
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@deno/mod.js';
 
 var bool = isAlmostSameValue( 1.0, 1.0+EPS, 1 );
 console.log( bool );
