@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@deno/mod.js';
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.1-deno/mod.js';
 ```
 
 #### isAlmostSameValue( a, b, maxULP )
@@ -97,7 +97,7 @@ bool = isAlmostSameValue( 0.0, -0.0, 0 );
 
 ```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@deno/mod.js';
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@deno/mod.js';
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.1-deno/mod.js';
 
 var bool = isAlmostSameValue( 1.0, 1.0+EPS, 1 );
 console.log( bool );
