@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-09-07)
+
+<section class="features">
+
+### Features
+
+-   [`f2e4c4f`](https://github.com/stdlib-js/stdlib/commit/f2e4c4fb00a75ca16b696ec268f0a776117748df) - add C implementation to `number/float32/base/assert/is-almost-same-value` [(#15036)](https://github.com/stdlib-js/stdlib/pull/15036)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f2e4c4f`](https://github.com/stdlib-js/stdlib/commit/f2e4c4fb00a75ca16b696ec268f0a776117748df) - **feat:** add C implementation to `number/float32/base/assert/is-almost-same-value` [(#15036)](https://github.com/stdlib-js/stdlib/pull/15036) _(by Muhammad Haris, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Muhammad Haris
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
