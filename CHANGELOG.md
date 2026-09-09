@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-07)
+## Unreleased (2026-09-09)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2740b02`](https://github.com/stdlib-js/stdlib/commit/2740b02e4e820553f2ea50765ac71db10415cb06) - **refactor:** remove unnecessary `Boolean` wrapper [(#15105)](https://github.com/stdlib-js/stdlib/pull/15105) _(by Philipp Burckhardt)_
 -   [`f2e4c4f`](https://github.com/stdlib-js/stdlib/commit/f2e4c4fb00a75ca16b696ec268f0a776117748df) - **feat:** add C implementation to `number/float32/base/assert/is-almost-same-value` [(#15036)](https://github.com/stdlib-js/stdlib/pull/15036) _(by Muhammad Haris, Athan Reines)_
 
 </details>
@@ -34,10 +35,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
